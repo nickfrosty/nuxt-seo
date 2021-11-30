@@ -1,5 +1,5 @@
 ---
-title: Basic
+title: Basic Options
 description: 'You can configure @nickfrosty/nuxt-seo with the "seo" property in your nuxt.config.js.'
 category: Options
 position: 1
