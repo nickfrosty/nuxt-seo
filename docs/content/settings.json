@@ -1,0 +1,11 @@
+{
+  "title": "Nuxt SEO",
+  "url": "https://nuxt-seo.frostbutter.com",
+  "logo": {
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
+  },
+  "github": "nickfrosty/nuxt-seo",
+  "twitter": "nickfrosty",
+  "defaultBranch": "main"
+}

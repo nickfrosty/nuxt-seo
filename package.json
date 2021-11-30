@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-seo",
+  "private": false,
+  "description": "SEO / HTML meta tags module for NuxtJS",
+  "repository": "nickfrosty/nuxt-seo",
+  "license": "MIT",
+  "workspaces": [
+    "package",
+    "docs"
+  ],
+  "scripts": {
+    "docs": "lerna run --scope nuxt-seo-docs dev",
+    "generate": "lerna run --scope nuxt-seo-docs generate",
+    "release": "lerna publish --conventional-commits",
+    "diff": "lerna diff"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0",
+    "nuxt": "^2.15.7"
+  },
+  "contributors": [
+    {
+      "name": "Nick Frostbutter"
+    },
+    {
+      "name": "Tiago Danin"
+    }
+  ]
+}

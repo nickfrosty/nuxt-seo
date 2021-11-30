@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-seo-docs",
+  "version": "0.1.0",
+  "description": "Docs for nuxt-seo",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.11.0",
+    "nuxt": "^2.15.8",
+    "vue-multiselect": "^2.1.6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": "independent",
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "conventionalCommits": true,
+  "packages": ["docs", "package"],
+  "command": {
+    "version": {
+      "private": false
+    },
+    "publish": {
+      "allowBranch": "master",
+      "message": "chore: release"
+    }
+  }
+}

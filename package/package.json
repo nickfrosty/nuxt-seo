@@ -1,0 +1,97 @@
+{
+  "name": "@nickfrosty/nuxt-seo",
+  "main": "lib/module.js",
+  "preferGlobal": false,
+  "version": "1.5.0",
+  "description": "SEO / HTML Meta Tags Module for NuxtJS",
+  "author": {
+    "email": "nick@frostbutter.com",
+    "name": "Nick Frostbutter",
+    "url": "https://frostbutter.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "html-meta",
+    "meta",
+    "nuxt",
+    "nuxt-module",
+    "nuxtjs",
+    "seo",
+    "seo-meta",
+    "seo-optimization",
+    "seo-plugin",
+    "social-media",
+    "vue",
+    "vuejs",
+    "canonical"
+  ],
+  "scripts": {
+    "start": "nuxt example",
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">=v14.17.0"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickfrosty/nuxt-seo.git"
+  },
+  "homepage": "https://nuxt-seo.frostbutter.com",
+  "bugs": {
+    "url": "https://github.com/nickfrosty/nuxt-seo/issues"
+  },
+  "github": {
+    "name": "nuxt-seo",
+    "owner": "nickfrosty"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib",
+    "package.json"
+  ],
+  "dependencies": {
+    "debug": "^4.2.0"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "got": "^11.8.2",
+    "nuxt": "^2.15.6",
+    "vue": "^2.6.12",
+    "xo": "^0.40.1"
+  },
+  "xo": {
+    "ignores": [
+      "lib/plugin.js"
+    ],
+    "rules": {
+      "quote-props": "warn",
+      "eqeqeq": "warn",
+      "array-callback-return": "warn",
+      "require-atomic-updates": "warn",
+      "no-else-return": "off",
+      "ava/no-ignored-test-files": "off"
+    },
+    "semicolon": false
+  },
+  "documentation": "https://nuxt-seo.frostbutter.com",
+  "ava": {
+    "files": [
+      "!test/fixtures/all.js"
+    ]
+  },
+  "resolutions": {
+    "yargs-parser": "^20.2.7",
+    "kind-of": "^6.0.3"
+  },
+  "features": [
+    "Easy to use, on page SEO",
+    "Page title templating",
+    "Set default global SEO settings/tags",
+    "Customize all SEO options for each page",
+    "Canonical tag automatically generated",
+    "Supports the OpenGraph protocol",
+    "Twitter card support"
+  ]
+}

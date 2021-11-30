@@ -1,0 +1,11 @@
+{
+  "extends": ["config:base"],
+  "assignees": ["nickfrosty"],
+  "labels": ["renovate"],
+  "rangeStrategy": "bump",
+  "statusCheckVerify": true,
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "assignees": ["nickfrosty"]
+  }
+}
