@@ -2,7 +2,7 @@
   "name": "@nickfrosty/nuxt-seo",
   "main": "lib/module.js",
   "preferGlobal": false,
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "SEO / HTML Meta Tags Module for NuxtJS",
   "author": {
     "email": "nick@frostbutter.com",
