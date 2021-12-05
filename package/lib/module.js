@@ -238,7 +238,7 @@ const createCanonical = (options, path) => {
 	}
 
 	return [
-		{rel: 'canonical', href: canonicalUrl}
+		{hid: 'canonical', rel: 'canonical', href: canonicalUrl}
 	]
 }
 
