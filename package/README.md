@@ -12,7 +12,7 @@ SEO / HTML meta tags module for NuxtJS
 - Supports the OpenGraph protocol
 - Twitter card support
 
-[![@nickfrosty/nuxt-seo](/docs/static/preview.png)](https://nuxt-seo.frostbutter.com)
+[![nuxt-seo](/docs/static/preview.png)](https://nuxt-seo.frostbutter.com)
 
 <p align="center">
   <a href="https://nuxt-seo.frostbutter.com">Read Documentation</a>

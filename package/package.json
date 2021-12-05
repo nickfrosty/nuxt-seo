@@ -1,5 +1,5 @@
 {
-  "name": "@nickfrosty/nuxt-seo",
+  "name": "nuxt-seo",
   "main": "lib/module.js",
   "preferGlobal": false,
   "version": "1.5.1",

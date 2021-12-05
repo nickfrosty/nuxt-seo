@@ -1,27 +1,27 @@
 ---
 title: Setup
-description: 'Setup and install @nickfrosty/nuxt-seo your Nuxt project.'
-category: Getting started
+description: 'Setup and install "nuxt-seo" on your Nuxt project.'
+category: "Getting Started"
 position: 2
 ---
 
 
 ## Install via NPM or Yarn
 
-Add `@nickfrosty/nuxt-seo` dependency to your project:
+Add `nuxt-seo` dependency to your project:
 
 <code-group>
   <code-block label="NPM" active>
 
   ```bash
-  npm install @nickfrosty/nuxt-seo
+  npm install nuxt-seo
   ```
 
   </code-block>
   <code-block label="Yarn">
 
   ```bash
-  yarn add @nickfrosty/nuxt-seo
+  yarn add nuxt-seo
   ```
 
   </code-block>
@@ -29,12 +29,12 @@ Add `@nickfrosty/nuxt-seo` dependency to your project:
 
 ## Setup
 
-Then, add `@nickfrosty/nuxt-seo` to the `modules` section of `nuxt.config.js`:
+Then, add `nuxt-seo` to the `modules` section of `nuxt.config.js`:
 
 ```js[nuxt.config.js]
 {
   modules: [
-    '@nickfrosty/nuxt-seo'
+    'nuxt-seo'
   ],
   seo: {
     // Module Options

@@ -1,6 +1,6 @@
 ---
 title: OpenGraph
-description: 'You can configure OpenGraph specific options using @nickfrosty/nuxt-seo with the "seo.openGraph" property in your NuxtJS site'
+description: 'You can configure OpenGraph specific options using nuxt-seo with the "seo.openGraph" property in your NuxtJS site'
 category: Options
 position: 2
 ---

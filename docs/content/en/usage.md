@@ -1,7 +1,7 @@
 ---
 title: Usage
 description: 'Setup a the nuxt-seo module to improve on page SEO for any Nuxt website or application'
-category: Getting started
+category: "Getting Started"
 position: 4
 ---
 

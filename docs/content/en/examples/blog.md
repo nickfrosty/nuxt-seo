@@ -1,6 +1,6 @@
 ---
 title: Blog
-description: 'You can configure @nickfrosty/nuxt-seo with the "seo" property in your nuxt.config.js.'
+description: 'How to can configure "nuxt-seo" for a blog website'
 category: Examples
 position: 1
 ---

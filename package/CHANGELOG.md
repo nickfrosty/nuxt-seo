@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.5.1 (2021-11-30)
 
-**Note:** Version bump only for package @nickfrosty/nuxt-seo
+**Note:** Version bump only for package nuxt-seo
 
 
 

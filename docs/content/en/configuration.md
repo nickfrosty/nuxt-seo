@@ -1,11 +1,11 @@
 ---
 title: Configuration
-description: 'You can configure @nickfrosty/nuxt-seo with the "seo" property in your nuxt.config.js.'
-category: Getting started
+description: 'You can configure "nuxt-seo" with the "seo" property in your nuxt.config.js.'
+category: "Getting Started"
 position: 3
 ---
 
-You can configure `@nickfrosty/nuxt-seo` with the `seo` property in your `nuxt.config.js`.
+You can configure `nuxt-seo` with the `seo` property in your `nuxt.config.js`.
 
 ## Default options
 

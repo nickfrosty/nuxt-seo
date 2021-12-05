@@ -1,6 +1,6 @@
 ---
 title: Twitter
-description: 'You can configure Twitter specific options using @nickfrosty/nuxt-seo with the "seo.twitter" property in your NuxtJS site'
+description: 'You can configure Twitter specific options using nuxt-seo with the "seo.twitter" property in your NuxtJS site'
 category: Options
 position: 3
 ---

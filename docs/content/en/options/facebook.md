@@ -1,6 +1,6 @@
 ---
 title: Facebook
-description: 'You can configure facebook specific options using @nickfrosty/nuxt-seo with the "seo.facebook" property in your NuxtJS site'
+description: 'You can configure facebook specific options using nuxt-seo with the "seo.facebook" property in your NuxtJS site'
 category: Options
 position: 4
 ---
