@@ -23,12 +23,17 @@ export default function (ctx, inject) {
 			ctx.app.context.app.head = ctx.app.head
 		}
 
-		if (Vue.prototype && Vue.prototype.$meta) { // Vue-meta is enabled
-			if (this.$nuxt && this.$nuxt.$options && this.$nuxt.$options.head) {
-				this.$nuxt.$options.head = ctx.app.head
-			} else if (Vue.prototype.$nuxt && Vue.prototype.$nuxt.$options && Vue.prototype.$nuxt.$options.head) {
-				Vue.prototype.$nuxt.$options.head = ctx.app.head
+		try {
+			if (Vue.prototype && Vue.prototype.$meta) { // Vue-meta is enabled
+				if (this.$nuxt && this.$nuxt.$options && this.$nuxt.$options.head) {
+					this.$nuxt.$options.head = ctx.app.head
+				} else if (Vue.prototype.$nuxt && Vue.prototype.$nuxt.$options && Vue.prototype.$nuxt.$options.head) {
+					Vue.prototype.$nuxt.$options.head = ctx.app.head
+				}
 			}
+		}
+		catch ( err ){
+			// unable to parse vue head
 		}
 
 		deb('HEAD:', ctx.app.head)
