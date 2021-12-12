@@ -110,8 +110,10 @@ This can be set using the `seo.openGraph.image` property. Usually set for each s
       return $seo({
         openGraph: {
           image: {
-            currency: '',
-            amount: ''
+            url: 'https://domain/img.png',
+            alt: 'alt text for the image',
+            width: '200',
+            height: '150',
           }
         }
       })
@@ -122,12 +124,12 @@ This can be set using the `seo.openGraph.image` property. Usually set for each s
 
 ### `url`
 
-- Default: `false`
+- Default: ``
 - Type: `String`
 
 ### `alt`
 
-- Default: `false`
+- Default: ``
 - Type: `String`
 
 ### `multi`
@@ -137,10 +139,10 @@ This can be set using the `seo.openGraph.image` property. Usually set for each s
 
 ### `width`
 
-- Default: `false`
+- Default: `NULL`
 - Type: `String`
 
 ### `height`
 
-- Default: `false`
+- Default: `NULL`
 - Type: `String`
