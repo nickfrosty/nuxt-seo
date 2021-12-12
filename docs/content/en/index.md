@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: 'Empower your NuxtJS application with the "nuxt-seo" module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB-like API, acting as a Git-based Headless CMS.'
+description: 'Supercharge your NuxtJS application with the "nuxt-seo" module. Auto generate canonical tags and easily set all of your Twitter/OpenGraph social media images.'
 category: "Getting Started"
 position: 1
 features:
@@ -13,7 +13,7 @@ features:
   - Twitter card support
 ---
 
-Empower your NuxtJS application with the `nuxt-seo` module: write in a `content/` directory and fetch your Markdown, JSON, YAML, XML and CSV files through a MongoDB-like API, acting as a **Git-based Headless CMS**.
+Supercharge your NuxtJS application with the **nuxt-seo** module.
 
 ## Features
 

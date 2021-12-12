@@ -99,7 +99,7 @@ With the `nuxt/content` module setup and installed, we can set create a blog pos
       return { posts };
     },
     head({ $seo }) {
-      $seo({
+      return $seo({
         title: 'Blog',
         description: 'Check out these posts',
         keywords: 'blog, listing, articles',
@@ -158,7 +158,7 @@ Using `asyncData`, we can retrieve the specific blog post's mardown file. Saving
       return { post };
     },
     head({ $seo }) {
-      $seo({
+      return $seo({
         title: this.post.title,
         description: this.post.description || 'fallback description',
         keywords: keywords,
