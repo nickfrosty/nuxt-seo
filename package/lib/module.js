@@ -89,7 +89,8 @@ const allMetas = {
 		type: {id: 'card', content: true},
 		site: {content: true},
 		creator: {content: true}
-	}
+	},
+	jsonld: {content: false}
 }
 
 allMetas.openGraph.images = allMetas.openGraph.image
@@ -241,6 +242,8 @@ const createCanonical = (options, path) => {
 		{hid: 'canonical', rel: 'canonical', href: canonicalUrl}
 	]
 }
+
+
 
 module.exports = function (moduleOptions) {
 	if (!moduleOptions.meta) {

@@ -15,6 +15,8 @@ export default function (ctx, inject) {
 
 		ctx.app.head.title = nuxtSeo.createTitle(options)
 		ctx.app.head.meta = nuxtSeo.createMeta(options, ctx.app.head.meta, template)
+
+
 		if (ctx.route && ctx.route.path) {
 			ctx.app.head.link = nuxtSeo.createCanonical(options, ctx.route.path)
 		}
@@ -23,13 +25,25 @@ export default function (ctx, inject) {
 			ctx.app.context.app.head = ctx.app.head
 		}
 
+		if(options.jsonld){
+			ctx.app.head.script.push({
+				vmid: 'ldjson-schema',
+				json: options.jsonld,
+				type: 'application/ld+json'
+			});
+		}
+
 		try {
 			if (Vue.prototype && Vue.prototype.$meta) { // Vue-meta is enabled
 				if (this.$nuxt && this.$nuxt.$options && this.$nuxt.$options.head) {
 					this.$nuxt.$options.head = ctx.app.head
 				} else if (Vue.prototype.$nuxt && Vue.prototype.$nuxt.$options && Vue.prototype.$nuxt.$options.head) {
+					console.log("Vue.prototype.$nuxt.$options",Vue.prototype.$nuxt.$options);
 					Vue.prototype.$nuxt.$options.head = ctx.app.head
+				} else if  (Vue.prototype.$nuxt && Vue.prototype.$nuxt.$options && Vue.prototype.$nuxt.$options.script) {
+					
 				}
+				
 			}
 		}
 		catch ( err ){
