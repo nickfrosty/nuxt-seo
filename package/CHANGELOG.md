@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/nickfrosty/nuxt-seo/compare/nuxt-seo@1.5.3...nuxt-seo@1.6.0) (2021-12-21)
+
+
+### Features
+
+* **package:** added structured data support ([cfa5e4b](https://github.com/nickfrosty/nuxt-seo/commit/cfa5e4b4eb9eff2442278bc80df7dde20aca6f80))
+
+
+
+
+
 ## [1.5.3](https://github.com/nickfrosty/nuxt-seo/compare/nuxt-seo@1.5.2...nuxt-seo@1.5.3) (2021-12-12)
 
 
