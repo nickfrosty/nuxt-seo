@@ -16,7 +16,6 @@ export default function (ctx, inject) {
 		ctx.app.head.title = nuxtSeo.createTitle(options)
 		ctx.app.head.meta = nuxtSeo.createMeta(options, ctx.app.head.meta, template)
 
-
 		if (ctx.route && ctx.route.path) {
 			ctx.app.head.link = nuxtSeo.createCanonical(options, ctx.route.path)
 		}
@@ -26,11 +25,19 @@ export default function (ctx, inject) {
 		}
 
 		if(options.jsonld){
+
+			if ( ctx.app.head.script ){
+				ctx.app.head.script = ctx.app.head.script.filter(( item ) => {
+					if ( item.vmid && item.vmid != 'ldjson-schema')
+						return item;
+				});
+			}
+
 			ctx.app.head.script.push({
 				vmid: 'ldjson-schema',
 				json: options.jsonld,
 				type: 'application/ld+json'
-			});
+			});	
 		}
 
 		try {
