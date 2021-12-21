@@ -38,12 +38,8 @@ export default function (ctx, inject) {
 				if (this.$nuxt && this.$nuxt.$options && this.$nuxt.$options.head) {
 					this.$nuxt.$options.head = ctx.app.head
 				} else if (Vue.prototype.$nuxt && Vue.prototype.$nuxt.$options && Vue.prototype.$nuxt.$options.head) {
-					console.log("Vue.prototype.$nuxt.$options",Vue.prototype.$nuxt.$options);
 					Vue.prototype.$nuxt.$options.head = ctx.app.head
-				} else if  (Vue.prototype.$nuxt && Vue.prototype.$nuxt.$options && Vue.prototype.$nuxt.$options.script) {
-					
 				}
-				
 			}
 		}
 		catch ( err ){
