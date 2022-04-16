@@ -9,4 +9,3 @@ coverage
 sw.*
 .env
 *.lock
-package-lock.json
