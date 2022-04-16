@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/nickfrosty/nuxt-seo/compare/nuxt-seo@1.6.0...nuxt-seo@1.6.1) (2022-04-16)
+
+
+### Bug Fixes
+
+* **package:** displaying social card titles ([3621a37](https://github.com/nickfrosty/nuxt-seo/commit/3621a37f4343dc59bba098055c4bf480f9ff1dc3)), closes [#12](https://github.com/nickfrosty/nuxt-seo/issues/12)
+
+
+
+
+
+
 # [1.6.0](https://github.com/nickfrosty/nuxt-seo/compare/nuxt-seo@1.5.3...nuxt-seo@1.6.0) (2021-12-21)
 
 
