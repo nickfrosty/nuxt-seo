@@ -138,10 +138,10 @@ const createMeta = (options = {}, inputMeta = [], template = {}) => {
 			value = value.join(',')
 		}
 
-		value = value.toString()
 		if (!value || value.length <= 0) {
 			return false
 		}
+		value = value.toString()
 
 		return value
 	}
@@ -226,6 +226,10 @@ const createMeta = (options = {}, inputMeta = [], template = {}) => {
 	return [...inputMeta, ...outputMeta]
 }
 
+
+/*
+	Generate the canonical url for the currently loaded page
+*/
 const createCanonical = (options, path) => {
 	let canonicalUrl = options.baseUrl.replace(/\/$/, '')
 	if (options.canonical === 'auto') {
@@ -243,8 +247,9 @@ const createCanonical = (options, path) => {
 	]
 }
 
-
-
+/*
+	Export the module for use by the plugin
+*/
 module.exports = function (moduleOptions) {
 	if (!moduleOptions.meta) {
 		moduleOptions.meta = {}

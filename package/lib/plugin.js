@@ -14,6 +14,7 @@ export default function (ctx, inject) {
 		}
 
 		ctx.app.head.title = nuxtSeo.createTitle(options)
+		options.title = ctx.app.head.title
 		ctx.app.head.meta = nuxtSeo.createMeta(options, ctx.app.head.meta, template)
 
 		if (ctx.route && ctx.route.path) {
